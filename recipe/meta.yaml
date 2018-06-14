@@ -1,6 +1,6 @@
 {% set name = "empyrical" %}
-{% set version = "0.3.4" %}
-{% set sha256 = "f90a4c2c927510645a18f1c8f88658644cd45ad57d3eb187eb0fc31529ee27d7" %}
+{% set version = "0.5.0" %}
+{% set sha256 = "21485df5261d0f78f4d1e1baa0a38888726a2054f0ba86997ac1b03853026fef" %}
 
 package:
   name: {{ name|lower }}
