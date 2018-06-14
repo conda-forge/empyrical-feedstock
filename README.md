@@ -15,12 +15,15 @@ Common financial risk metrics
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/empyrical-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/empyrical-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/empyrical-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/empyrical-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/empyrical/badges/version.svg)](https://anaconda.org/conda-forge/empyrical)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/empyrical/badges/downloads.svg)](https://anaconda.org/conda-forge/empyrical)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-empyrical-green.svg)](https://anaconda.org/conda-forge/empyrical) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/empyrical.svg)](https://anaconda.org/conda-forge/empyrical) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/empyrical.svg)](https://anaconda.org/conda-forge/empyrical) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/empyrical.svg)](https://anaconda.org/conda-forge/empyrical) |
 
 Installing empyrical
 ====================
