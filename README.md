@@ -3,24 +3,35 @@ About empyrical
 
 Home: https://github.com/quantopian/empyrical
 
-Package license: Apache 2.0
+Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
-Summary: Common financial risk metrics
+Summary: empyrical is a Python library with performance and risk statistics commonly used in quantitative finance
 
-Common financial risk metrics
+empyrical is a Python library with performance and risk
+statistics commonly used in quantitative finance by Quantopian Inc
 
 
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/empyrical-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/empyrical-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4696&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/empyrical-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/empyrical/badges/version.svg)](https://anaconda.org/conda-forge/empyrical)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/empyrical/badges/downloads.svg)](https://anaconda.org/conda-forge/empyrical)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-empyrical-green.svg)](https://anaconda.org/conda-forge/empyrical) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/empyrical.svg)](https://anaconda.org/conda-forge/empyrical) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/empyrical.svg)](https://anaconda.org/conda-forge/empyrical) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/empyrical.svg)](https://anaconda.org/conda-forge/empyrical) |
 
 Installing empyrical
 ====================
@@ -47,6 +58,8 @@ conda search empyrical --channel conda-forge
 About conda-forge
 =================
 
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
 conda-forge GitHub organization. The conda-forge organization contains one repository
@@ -55,13 +68,13 @@ for each of the installable packages. Such a repository is known as a *feedstock
 A feedstock is made up of a conda recipe (the instructions on what and how to build
 the package) and the necessary configurations for automatic building using freely
 available continuous integration services. Thanks to the awesome service provided by
-[CircleCI](https://circleci.com/), [AppVeyor](http://www.appveyor.com/)
-and [TravisCI](https://travis-ci.org/) it is possible to build and upload installable
+[CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/)
+and [TravisCI](https://travis-ci.com/) it is possible to build and upload installable
 packages to the [conda-forge](https://anaconda.org/conda-forge)
-[Anaconda-Cloud](http://docs.anaconda.org/) channel for Linux, Windows and OSX respectively.
+[Anaconda-Cloud](https://anaconda.org/) channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
-[conda-smithy](http://github.com/conda-forge/conda-smithy) has been developed.
+[conda-smithy](https://github.com/conda-forge/conda-smithy) has been developed.
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
@@ -97,7 +110,21 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](http://conda.pydata.org/docs/building/meta-yaml.html#build-number-and-string).
+   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](http://conda.pydata.org/docs/building/meta-yaml.html#build-number-and-string)
+   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@alen12345](https://github.com/alen12345/)
+* [@fawce](https://github.com/fawce/)
+* [@gerrymanoim](https://github.com/gerrymanoim/)
+* [@jbredeche](https://github.com/jbredeche/)
+* [@jdricklefs](https://github.com/jdricklefs/)
+* [@llllllllll](https://github.com/llllllllll/)
+* [@richafrank](https://github.com/richafrank/)
+* [@ssanderson](https://github.com/ssanderson/)
+* [@twiecki](https://github.com/twiecki/)
+
