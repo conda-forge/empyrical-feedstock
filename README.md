@@ -5,9 +5,11 @@ Home: https://github.com/quantopian/empyrical
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/empyrical-feedstock/blob/master/LICENSE.txt)
 
 Summary: empyrical is a Python library with performance and risk statistics commonly used in quantitative finance
+
+Development: https://github.com/quantopian/empyrical
 
 empyrical is a Python library with performance and risk
 statistics commonly used in quantitative finance by Quantopian Inc
@@ -125,6 +127,4 @@ Feedstock Maintainers
 * [@jdricklefs](https://github.com/jdricklefs/)
 * [@llllllllll](https://github.com/llllllllll/)
 * [@richafrank](https://github.com/richafrank/)
-* [@ssanderson](https://github.com/ssanderson/)
-* [@twiecki](https://github.com/twiecki/)
 
