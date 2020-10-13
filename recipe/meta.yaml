@@ -1,7 +1,5 @@
 {% set name = "empyrical" %}
-{% set version = "0.5.3" %}
-{% set hash_type = "sha256" %}
-{% set hash_value = "8e2819417f691b5b136ccd5dc7cc0d73e12c39a156e54b080b271f159ee2bb5d" %}
+{% set version = "0.5.4" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  '{{ hash_type }}': '{{ hash_value }}'
+  sha256: b197a88cb389b4150272a3d8eacb27e925e52c6bfb14a1c9af02861cbf0fa6e6
 
 build:
   # The package is pure Python and the recipe is exactly the same for all platforms.
@@ -17,7 +15,7 @@ build:
   # See https://conda-forge.org/docs/maintainer/knowledge_base.html#noarch-python for more details.
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
